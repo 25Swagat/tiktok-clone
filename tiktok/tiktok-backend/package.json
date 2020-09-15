@@ -11,6 +11,8 @@
   "author": "Swagat Gyawali",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.5",
     "react": "^16.13.1"

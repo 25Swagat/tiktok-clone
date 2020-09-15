@@ -18,7 +18,7 @@ function Video({ url, channel, description, song, likes, messages, shares }) {
   };
 
   return (
-    <div className="video">
+    <div>
       <video
         onClick={handleVideoPress}
         className="video_player"
