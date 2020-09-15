@@ -4,11 +4,17 @@ import mongoose from "mongoose";
 import Data from "./data.js";
 import Videos from "./dbModel.js";
 
+// const express = require("express");
+// const mongoose = require("mongoose");
+
+// const Data = require("./data.js");
+// const Videos = require("./dbModel.js");
+
 // const video = require("../src/Video.js");
 
 //App config
 const app = express();
-const port = 9000;
+const port = process.env.PORT || 9000;
 
 //Middlewares
 app.use(express.json());
