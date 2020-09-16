@@ -1,5 +1,5 @@
-import axios from "./axios";
 import React, { useEffect, useState } from "react";
+import axios from "./axios";
 import "./App.css";
 import Video from "./Video";
 
@@ -24,9 +24,10 @@ function App() {
             <Video
               url={url}
               channel={channel}
-              song={song}
-              messages={messages}
               description={description}
+              song={song}
+              likes={likes}
+              messages={messages}
               shares={shares}
             />
           )

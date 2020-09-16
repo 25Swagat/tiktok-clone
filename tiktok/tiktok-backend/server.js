@@ -14,7 +14,7 @@ import Videos from "./dbModel.js";
 
 //App config
 const app = express();
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 8001;
 
 //Middlewares
 app.use(express.json());
